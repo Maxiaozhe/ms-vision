@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "name": "建物_",
+      "score": 0.65234375,
+      "detail": {
+        "landmarks": [
+          { "name": "Parliament Hill", "confidence": 0.9926770925521851 }
+        ]
+      }
+    },
+    {
+      "name": "屋外_",
+      "score": 0.00390625,
+      "detail": {
+        "landmarks": [
+          { "name": "Parliament Hill", "confidence": 0.9926770925521851 }
+        ]
+      }
+    }
+  ],
+  "color": {
+    "dominantColorForeground": "Grey",
+    "dominantColorBackground": "Black",
+    "dominantColors": ["Black"],
+    "accentColor": "0361C8",
+    "isBwImg": false,
+    "isBWImg": false
+  },
+  "description": {
+    "tags": [
+      "屋外",
+      "建物",
+      "大きい",
+      "時計",
+      "古い",
+      "市",
+      "大きな",
+      "フロント",
+      "グリーン",
+      "背景",
+      "水",
+      "眺め",
+      "教会",
+      "川",
+      "タワー",
+      "城",
+      "背の高い",
+      "周辺",
+      "丘",
+      "礼拝堂",
+      "ウマ",
+      "フィールド",
+      "草",
+      "ボート",
+      "立つ",
+      "政府の建物"
+    ],
+    "captions": [
+      { "text": "教会のParliament Hill", "confidence": 0.6968479571160421 }
+    ]
+  },
+  "requestId": "d05bff3f-321b-434c-88cd-1913367a71fd",
+  "metadata": { "width": 1024, "height": 768, "format": "Jpeg" }
+}

@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "name": "people_",
+      "score": 0.546875,
+      "detail": {
+        "celebrities": [
+          {
+            "name": "Donald Trump",
+            "confidence": 0.9999978542327881,
+            "faceRectangle": {
+              "left": 290,
+              "top": 82,
+              "width": 145,
+              "height": 145
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "people_group",
+      "score": 0.19921875,
+      "detail": {
+        "celebrities": [
+          {
+            "name": "Donald Trump",
+            "confidence": 0.9999978542327881,
+            "faceRectangle": {
+              "left": 290,
+              "top": 82,
+              "width": 145,
+              "height": 145
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "color": {
+    "dominantColorForeground": "White",
+    "dominantColorBackground": "Blue",
+    "dominantColors": ["Blue"],
+    "accentColor": "11102C",
+    "isBwImg": false,
+    "isBWImg": false
+  },
+  "description": {
+    "tags": [
+      "person",
+      "man",
+      "suit",
+      "necktie",
+      "clothing",
+      "wearing",
+      "front",
+      "business",
+      "looking",
+      "standing",
+      "jacket",
+      "holding",
+      "dressed",
+      "older",
+      "black",
+      "yellow",
+      "blue",
+      "old",
+      "white",
+      "street",
+      "phone",
+      "sign"
+    ],
+    "captions": [
+      {
+        "text": "Donald Trump wearing a suit and tie",
+        "confidence": 0.9862382964402057
+      }
+    ]
+  },
+  "requestId": "a43d36f0-94d0-4e21-9593-b3f76e826aa7",
+  "metadata": { "width": 700, "height": 394, "format": "Jpeg" }
+}

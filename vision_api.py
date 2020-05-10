@@ -81,6 +81,8 @@ def analyzeImage(image_path, lang='en'):
 
     # Display the raw JSON results returned
     results = response.json()
+    # save result as json file
+    saveResult(image_path,results,lang)
     # print(json.dumps(results))
 
     # print the value for requestId from the JSON output
@@ -145,10 +147,10 @@ def OcrImage(image_path, lang='en'):
 
     # Display the raw JSON results returned
     results = response.json()
+    saveResult(image_path,results,results["language"])
     # print(json.dumps(results))
 
     # print the value for requestId from the JSON output
-    # print()
     # print('requestId')
     # print(results['requestId'])
     texts = []  
@@ -165,3 +167,12 @@ def OcrImage(image_path, lang='en'):
         "language": results["language"]       
     }
     return result
+
+def saveResult(image_path,result,lang):
+   fname = path.basename(path.splitext(image_path)[0]) + f"_{lang}.json"
+   basedir = path.dirname(sys.argv[0])
+   fpath = path.join(basedir,"result",fname)
+   open(fpath, 'w', encoding='utf-8').write(json.dumps(result, ensure_ascii=False))
+
+if __name__ == "__main__":
+    analyzeImage(r'TestImages\trump.jpg','zh')

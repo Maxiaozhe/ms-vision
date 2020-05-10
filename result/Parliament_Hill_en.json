@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "name": "building_",
+      "score": 0.65234375,
+      "detail": {
+        "landmarks": [
+          { "name": "Parliament Hill", "confidence": 0.9926770925521851 }
+        ]
+      }
+    },
+    {
+      "name": "outdoor_",
+      "score": 0.00390625,
+      "detail": {
+        "landmarks": [
+          { "name": "Parliament Hill", "confidence": 0.9926770925521851 }
+        ]
+      }
+    }
+  ],
+  "color": {
+    "dominantColorForeground": "Grey",
+    "dominantColorBackground": "Black",
+    "dominantColors": ["Black"],
+    "accentColor": "0361C8",
+    "isBwImg": false,
+    "isBWImg": false
+  },
+  "description": {
+    "tags": [
+      "outdoor",
+      "building",
+      "large",
+      "clock",
+      "old",
+      "city",
+      "big",
+      "front",
+      "green",
+      "background",
+      "water",
+      "view",
+      "church",
+      "river",
+      "tower",
+      "castle",
+      "tall",
+      "surrounded",
+      "hill",
+      "horse",
+      "field",
+      "grassy",
+      "boat",
+      "standing"
+    ],
+    "captions": [
+      {
+        "text": "a large clock tower towering over Parliament Hill",
+        "confidence": 0.7462234997464777
+      }
+    ]
+  },
+  "requestId": "0f635fd9-3d1d-4ce2-8649-94187805dbc1",
+  "metadata": { "width": 1024, "height": 768, "format": "Jpeg" }
+}

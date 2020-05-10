@@ -1,0 +1,79 @@
+{
+  "categories": [
+    { "name": "others_", "score": 0.0078125 },
+    {
+      "name": "people_",
+      "score": 0.48046875,
+      "detail": {
+        "celebrities": [
+          {
+            "name": "Barack Obama",
+            "confidence": 0.9999285936355591,
+            "faceRectangle": {
+              "left": 203,
+              "top": 85,
+              "width": 144,
+              "height": 144
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "people_portrait",
+      "score": 0.359375,
+      "detail": {
+        "celebrities": [
+          {
+            "name": "Barack Obama",
+            "confidence": 0.9999285936355591,
+            "faceRectangle": {
+              "left": 203,
+              "top": 85,
+              "width": 144,
+              "height": 144
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "color": {
+    "dominantColorForeground": "Black",
+    "dominantColorBackground": "Grey",
+    "dominantColors": ["Black"],
+    "accentColor": "7B4542",
+    "isBwImg": false,
+    "isBWImg": false
+  },
+  "description": {
+    "tags": [
+      "person",
+      "man",
+      "suit",
+      "necktie",
+      "holding",
+      "wearing",
+      "standing",
+      "looking",
+      "hand",
+      "front",
+      "dressed",
+      "sign",
+      "board",
+      "black",
+      "cutting",
+      "phone",
+      "white",
+      "blue"
+    ],
+    "captions": [
+      {
+        "text": "Barack Obama wearing a suit and tie",
+        "confidence": 0.9705046765833799
+      }
+    ]
+  },
+  "requestId": "2f3ec9c4-3d6e-44bd-a9ed-87b76627c1d0",
+  "metadata": { "width": 624, "height": 351, "format": "Jpeg" }
+}

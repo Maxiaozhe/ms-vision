@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "name": "建筑_",
+      "score": 0.65234375,
+      "detail": {
+        "landmarks": [{ "name": "国会山庄", "confidence": 0.9926770925521851 }]
+      }
+    },
+    {
+      "name": "户外_",
+      "score": 0.00390625,
+      "detail": {
+        "landmarks": [{ "name": "国会山庄", "confidence": 0.9926770925521851 }]
+      }
+    }
+  ],
+  "color": {
+    "dominantColorForeground": "Grey",
+    "dominantColorBackground": "Black",
+    "dominantColors": ["Black"],
+    "accentColor": "0361C8",
+    "isBwImg": false,
+    "isBWImg": false
+  },
+  "description": {
+    "tags": [
+      "户外",
+      "建筑",
+      "大",
+      "钟表",
+      "旧",
+      "城市",
+      "前",
+      "绿色",
+      "背景",
+      "水",
+      "风景",
+      "教堂",
+      "河",
+      "塔",
+      "城堡",
+      "高",
+      "围绕",
+      "山",
+      "马",
+      "田地",
+      "草地",
+      "船",
+      "站"
+    ],
+    "captions": [{ "text": "城堡的国会山庄", "confidence": 0.6736377641786354 }]
+  },
+  "requestId": "3b7e1bf8-555a-4728-95c8-b392d1e753a1",
+  "metadata": { "width": 1024, "height": 768, "format": "Jpeg" }
+}
