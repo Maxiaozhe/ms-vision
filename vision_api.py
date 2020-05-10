@@ -106,7 +106,7 @@ def OcrImage(image_path, lang='en'):
     - *lang* :
         unk（自动检测）
         zh-Hans（简体中文）
-        zh-Hant（繁体中文）
+        zh-Hant（繁 体中文）
         ja 日文
         etc (https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fc)
     return {caption,tags}
